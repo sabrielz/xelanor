@@ -1,0 +1,52 @@
+{
+	"menu": [
+		{
+			"type": "header",
+			"label": "MAIN MENU"
+		},
+		{
+			"type": "item",
+			"label": "Dashboard",
+			"href": "/dashboard",
+			"fontawesome": "fas fa-home"
+		},
+		{
+			"type": "header",
+			"label": "SETTINGS"
+		},
+		{
+			"type": "dropdown",
+			"label": "General",
+			"fontawesome": "fas fa-globe",
+			"items": [
+				{
+					"label": "Brand",
+					"href": "/dashboard/settings/brand",
+					"fontawesome": "fas fa-cog"
+				}
+			]
+		},
+		{
+			"type": "dropdown",
+			"label": "HTML DOM",
+			"fontawesome": "fas fa-code",
+			"items": [
+				{
+					"label": "Metadata",
+					"href": "/dashboard/settings/metadata",
+					"fontawesome": "fas fa-database"
+				},
+				{
+					"label": "Css",
+					"href": "/dashboard/settings/css",
+					"fontawesome": "fab fa-css3-alt"
+				},
+				{
+					"label": "Javascript",
+					"href": "/dashboard/settings/js",
+					"fontawesome": "fab fa-js-square"
+				}
+			]
+		}
+	]
+}

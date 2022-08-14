@@ -1,0 +1,102 @@
+[
+	{
+		"key": "sidebar",
+		"values": {
+			"menu": [
+				{
+					"type": "header",
+					"label": "MAIN MENU"
+				},
+				{
+					"type": "item",
+					"label": "Dashboard",
+					"href": "/dashboard",
+					"fontawesome": "fas fa-home"
+				},
+				{
+					"type": "header",
+					"label": "SETTINGS"
+				},
+				{
+					"type": "dropdown",
+					"label": "General",
+					"fontawesome": "fas fa-globe",
+					"items": [
+						{
+							"label": "Brand",
+							"href": "/dashboard/settings/brand",
+							"fontawesome": "fas fa-cog"
+						}
+					]
+				},
+				{
+					"type": "dropdown",
+					"label": "HTML DOM",
+					"fontawesome": "fas fa-code",
+					"items": [
+						{
+							"label": "Metadata",
+							"href": "/dashboard/settings/metadata",
+							"fontawesome": "fas fa-database"
+						},
+						{
+							"label": "CSS Manager",
+							"href": "/dashboard/settings/css",
+							"fontawesome": "fab fa-css3-alt"
+						},
+						{
+							"label": "JS Manager",
+							"href": "/dashboard/settings/js",
+							"fontawesome": "fab fa-js-square"
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"key": "brand",
+		"values": {
+			"name": "Xelanor"
+		}
+	},
+	{
+		"key": "metadata",
+		"values": {
+			"keywords": "",
+			"description": "",
+			"viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+			"author": "SMK Muhammadiyah Bligo",
+			"copyright": "SMK Muhammadiyah Bligo",
+			"rating": "general",
+			"robots": "index, follow",
+			"googlebot": "index, follow",
+			"msnbot": "index, follow",
+			"yahoobot": "index, follow",
+			"bingbot": "index, follow",
+			"others": [
+				{
+					"charset": "UTF-8"
+				},
+				{
+					"http-equiv": "X-UA-Compatible",
+					"contents": "IE=edge"
+				}
+			]
+		}
+	},
+	{
+		"key": "css",
+		"values": {
+			"xelanorcss": "/style.css",
+			"fontawesome": "/fontawesome/css/all.min.css",
+			"tailwindcss": "/tailwindcss/tailwind.css"
+		}
+	},
+	{
+		"key": "js",
+		"values": {
+			"animejs": "/animejs/anime.min.js"
+		}
+	}
+]

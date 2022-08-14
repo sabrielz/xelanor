@@ -1,0 +1,28 @@
+{
+	"metadata": {
+		"keywords": "",
+		"description": "",
+		"viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+		"author": "SMK Muhammadiyah Bligo",
+		"copyright": "SMK Muhammadiyah Bligo",
+		"rating": "general",
+		"robots": "index, follow",
+		"googlebot": "index, follow",
+		"msnbot": "index, follow",
+		"yahoobot": "index, follow",
+		"bingbot": "index, follow",
+		"others": [
+			{
+				"charset": "UTF-8"
+			},
+			{
+				"http-equiv": "X-UA-Compatible",
+				"contents": "IE=edge"
+			}
+		]
+	},
+	"styles": {
+		"fontawesome": "/fontawesome/css/all.min.css",
+		"tailwindcss": "/tailwindcss/tailwind.css"
+	}
+}
